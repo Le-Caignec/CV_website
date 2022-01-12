@@ -1,0 +1,216 @@
+/*Corps */
+body {
+	margin:0;
+  	padding:0;
+  	background: url(fond.jpg) no-repeat center fixed; 
+  	background-size: cover;
+	font-family: Georgia, serif;
+}
+
+/* Entete */
+#header {
+	margin: 0px;
+	padding-top: 0px;
+}
+
+
+/* Titre */
+#titre {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center; /* Centre le texte */
+	font-size: 3em; /* taille du titre */
+	font-weight: 300;
+	color: #000000; 
+}
+
+
+/* Sous-titre */
+#sous_titre {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000000;
+}
+
+
+/* Barre de navigation */
+#navigation {
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	background-color: #00CED1;
+	border-style: inset;
+	border-width: 5px; 
+	border-color: #00CED1;
+}
+	
+#navigation a {
+	text-decoration: none;
+	color: #FFFFFF; 
+	font-size: 1em;
+	font-family: Georgia,
+
+}
+
+#navigation a:hover {
+	color: #C4D7E7;
+}
+
+#navigation li {
+	list-style-type: none;
+	display: inline; 
+	margin: 10px;
+	text-align: center;
+}
+
+#active {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+
+/* Contenu de la page */
+div {
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 150px;
+}
+
+div h1 {
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 150px;
+}
+
+div h2 {
+	text-decoration: underline;
+	color: #191c38;
+}
+
+div h3 {
+	color: #191c38;
+}
+
+
+/* Presentation en page d'accueil */
+#presentation {
+	font-family: Georgia, serif;
+}
+
+
+/* Partie contact en page d'accueil */
+#contact {
+	font-family: Georgia, serif;
+	border-radius: 10px;
+	background-color: white;
+	padding: 15px;
+	padding-top: 3px;
+	padding-left: 30px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#mail {
+	opacity: 0.7;
+	float: right;
+	text-align: right;
+	width: 150px;
+	padding-right: 0px;
+}
+
+
+/* Etat civil */
+#etat_civil {
+	color: #23364D;
+	font-family: Georgia, serif;
+	border-radius: 10px;
+	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-right: 350px;
+	padding-left: 50px;
+	margin-left: 350px;
+}
+
+#etat_civil ul {
+	margin-right: 250px;
+}
+
+#etat_civil h4 {
+	text-decoration: underline;
+}
+
+
+/* Photo du CV */
+#photo_cv {
+	text-align: right;
+	width: 140px;
+	height: 180px;
+	float: right;
+	border: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	color: black;
+	margin-top: 60px;
+	margin-right: 400px;
+}
+
+
+/* Titres du CV */
+.titres {
+	font-family: Georgia, serif;
+	border-bottom: solid;
+	border-width: 1px;
+	text-decoration: none;
+	color: #24364c;
+}
+
+
+/* Contenu du CV entre les titres */
+.info {
+	font-family: Georgia, serif;
+	color: #23364D;
+}
+
+
+/* Vidéo partie ressources */
+video {
+	width: 60%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+
+/* Exemple de code partie ressources */
+#ex_code {
+	margin: 0px;
+	font-family: Helvetica, sans-serif;
+	color: #24364c;
+}
+
+#ex_code pre {
+	margin: 0px;
+	color: black;
+}
+
+
+/* Pied de page */
+footer {
+	text-align: center;
+	padding: 1em;
+	border-top: medium;
+	border-color: #1C5481;
+	border-width: 0px;
+	color: white; 
+	background-color: #1C5481;
+	font-size: 0.8em;
+}
+
+
